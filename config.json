@@ -2,20 +2,15 @@
   "public": {
     "default": {
       "commerce-core-endpoint": "https://aemshop.net/graphql",
-      "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/GSnKiqpZtxHnpptoxJC6L9/graphql",
+      "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/Fwus6kdpvYCmeEdcCX7PZg/graphql",
       "headers": {
         "all": {
           "Store": "default"
         },
         "cs": {
-          "Magento-Customer-Group": "0",
-          "Magento-Store-Code": "main_website_store",
-          "Magento-Store-View-Code": "default",
-          "Magento-Website-Code": "base",
-          "Magento-Environment-Id": "GSnKiqpZtxHnpptoxJC6L9",
-          "ac-channel-id": "a53e62e4-9eb8-4769-bf86-81c2d7dd5f98",
-          "ac-environment-id": "GSnKiqpZtxHnpptoxJC6L9",
-          "ac-price-book-id": "east_coast_inc",
+          "ac-channel-id": "9ced53d7-35a6-40c5-830e-8288c00985ad",
+          "ac-environment-id": "Fwus6kdpvYCmeEdcCX7PZg",
+          "ac-price-book-id": "west_coast_inc",
           "ac-scope-locale": "en-US"
         }
       },
@@ -24,7 +19,7 @@
         "environment": "Production",
         "store-id": 1,
         "store-name": "ACO Store",
-        "store-url": "https://main--falcon-ranosys-aco-sf--ankit-jasani.aem.live",
+        "store-url": "https://main--boilerplate-aco--adobe-commerce.aem.live",
         "store-view-id": 1,
         "store-view-name": "Default Store View",
         "website-id": 1,
