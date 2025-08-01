@@ -361,3 +361,16 @@ export function mapProductAcdl(product) {
     mainImageUrl: product?.images?.[0]?.url,
   };
 }
+
+/**
+ * Decorates links.
+ * @param {string} [link] url to be localized
+ * @returns {string} - The localized link
+ */
+export function rootLink(link) {
+  const root = getRootPath().replace(/\/$/, '');
+
+  // If the link is already localized, do nothing
+  if (link.startsWith(root)) return link;
+  return `${root}${link}`;
+}
